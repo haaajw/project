@@ -1,5 +1,5 @@
 name: NodeJsRunner
 version: 1.0
 main: com.haaajw.nodejsrunner.Main
-api-version: '1.21'
+api-version: '1.12'
 description: Plugin untuk menjalankan Node.js di Server Minecraft
