@@ -3,15 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.namakamu</groupId>
+    <groupId>com.haaajw</groupId>
     <artifactId>NodeJsRunner</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
     <properties>
-        <!-- Ubah ke Java 21 -->
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <!-- Ubah ke Java 8 (1.8) -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -24,11 +24,11 @@
     </repositories>
 
     <dependencies>
-        <!-- Spigot API versi 1.21 -->
+        <!-- Spigot API versi 1.12.2 -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version> <!-- Diupdate ke 1.21.1 -->
+            <version>1.12.2-R0.1-SNAPSHOT</version> <!-- Diupdate ke 1.12.2 -->
             <scope>provided</scope>
         </dependency>
     </dependencies>
